@@ -72,3 +72,4 @@ def add_entry():
     db.commit()
     flash('New entry was successfully posted')
     return redirect(url_for('show_entries'))
+    
